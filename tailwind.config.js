@@ -11,7 +11,8 @@ export default {
         dwhite: '#ddd',
         gray: '#333',
         lg: '#666',
-        sg: '#444'
+        sg: '#444',
+        green: "#0a5"
       },
       fontFamily: {
         body: ['Calibri', 'Arial','sans-serif'],
