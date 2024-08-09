@@ -28,8 +28,8 @@ function Number() {
             <div className='border-l border-white opacity-50 h-full mx-1'></div>
         </div>
         <div className='flex gap-1.5 mx-1.5'>
-          <img src="/Images/Menus/Home/Number/IncreaseDecimalIcon.png" className='hover:outline outline-1 outline-lg' alt="" srcset="" />
-          <img src="/Images/Menus/Home/Number/DecreaseDecimalIcon.png" className='hover:outline outline-1 outline-lg' alt="" srcset="" />
+          <img src="/Images/Menus/Home/Number/IncreaseDecimalIcon.png" className='hover:outline outline-1 outline-lg' />
+          <img src="/Images/Menus/Home/Number/DecreaseDecimalIcon.png" className='hover:outline outline-1 outline-lg' />
         </div>
       </div>
     </div>

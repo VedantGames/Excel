@@ -9,10 +9,14 @@ export default {
         white: '#fff',
         lwhite: '#eee',
         dwhite: '#ddd',
+        swhite: '#777',
         gray: '#333',
         lg: '#666',
+        mg: '#555',
         sg: '#444',
-        green: "#0a5"
+        xsg: '#404040',
+        green: "#0a5",
+        orange: '#fb923c'
       },
       fontFamily: {
         body: ['Calibri', 'Arial','sans-serif'],

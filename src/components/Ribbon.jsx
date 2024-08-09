@@ -7,7 +7,7 @@ function Ribbon() {
   return (
     <div className='h-28 px-4 py-2 bg-gray text-white flex'>
       {menus.length > 0 && menus.filter(menu => menu.label == selectedMenu)[0].blocks.map(block => (
-        <div key={block.label} className='flex'>
+        <div key={block.label + Math.random()} className='flex'>
           <div className='flex flex-col items-center w-max h-full justify-between'>
             <div className='h-full'>
               {React.createElement(block.instance)}
