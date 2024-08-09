@@ -73,7 +73,7 @@ function Grid({setScrollTop, selectedCell, setSelectedCell, selectionChanged, se
           {maxCols > 0 && Array(maxCols).fill(0).map((col, x) => (
             <div 
             key={x+y}
-            className={'w-16 h-5 overflow-visible text-xs ' + (selectedCell[0] == x && selectedCell[1] == y ? 'outline outline-2 outline-green border-0 z-10' : (sheet[[x, y]]?.style.font.bgColor != null ? '' : 'outline outline-1 outline-dwhite')) + (sheet[[x, y]]?.style.font.textColor == null && ' text-transparent')}
+            className={'w-16 h-5 overflow-visible text-xs ' + (selectedCell[0] == x && selectedCell[1] == y ? 'outline outline-2 outline-green border-0 z-10' : (sheet[[x, y]]?.style.font.bgColor != null ? '' : 'outline outline-1 outline-dwhite')) + (sheet[[x, y]]?.style.font.textColor == null ? ' text-transparent' : '')}
             style={{
               backgroundColor: sheet[[x, y]]?.style.font.bgColor,
               color: sheet[[x, y]]?.style.font.textColor,
